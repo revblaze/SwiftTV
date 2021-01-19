@@ -13,11 +13,24 @@ struct DiscoverRow: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(categoryName)
-                .font(.headline)
-                .padding(.leading, 15)
-                .padding(.top, 15)
-                .padding(.bottom, -15)
+            
+            HStack {
+                Text(categoryName)
+                    .font(.headline)
+                
+                Spacer()
+
+                NavigationLink(destination: DiscoverGrid(categoryName: categoryName, items: items)) {
+                    Spacer()
+                    Text("See More")
+                        .foregroundColor(.blue)
+                }
+            }
+            .padding(.top, 15)
+            .padding(.bottom, -15)
+            .padding(.leading, 15)
+            .padding(.trailing, 15)
+            
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: -15) {
