@@ -28,7 +28,6 @@ struct Rating: View {
                 .resizable()
                 .frame(width: 24, height: 24)
             Text("\(movie.rating.description)%")
-                //.font(.system(.body, design: .monospaced))
                 .fontWeight(.semibold)
         }
     }

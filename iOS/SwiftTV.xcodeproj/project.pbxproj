@@ -27,6 +27,7 @@
 		C26049E825B755810002929A /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26049D725B755810002929A /* CoverImage.swift */; };
 		C26049E925B755810002929A /* PosterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26049D825B755810002929A /* PosterImage.swift */; };
 		C26049EA25B755810002929A /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26049D925B755810002929A /* FavoriteButton.swift */; };
+		C26049EF25B7571F0002929A /* DiscoverGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26049EE25B7571F0002929A /* DiscoverGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		C26049D725B755810002929A /* CoverImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
 		C26049D825B755810002929A /* PosterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterImage.swift; sourceTree = "<group>"; };
 		C26049D925B755810002929A /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		C26049EE25B7571F0002929A /* DiscoverGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				C26049CB25B755810002929A /* DiscoverHome.swift */,
-				C26049CC25B755810002929A /* DiscoverItem.swift */,
-				C26049CD25B755810002929A /* DiscoverCover.swift */,
 				C26049CE25B755810002929A /* DiscoverRow.swift */,
+				C26049CC25B755810002929A /* DiscoverItem.swift */,
+				C26049EE25B7571F0002929A /* DiscoverGrid.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -145,9 +147,9 @@
 		C26049CF25B755810002929A /* Movies */ = {
 			isa = PBXGroup;
 			children = (
-				C26049D025B755810002929A /* MovieDetail.swift */,
-				C26049D125B755810002929A /* MovieRow.swift */,
 				C26049D225B755810002929A /* MovieList.swift */,
+				C26049D125B755810002929A /* MovieRow.swift */,
+				C26049D025B755810002929A /* MovieDetail.swift */,
 			);
 			path = Movies;
 			sourceTree = "<group>";
@@ -155,12 +157,13 @@
 		C26049D325B755810002929A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				C26049D425B755810002929A /* CoverImageDetail.swift */,
 				C26049D525B755810002929A /* Rating.swift */,
+				C26049D925B755810002929A /* FavoriteButton.swift */,
+				C26049D825B755810002929A /* PosterImage.swift */,
 				C26049D625B755810002929A /* PosterImageDetail.swift */,
 				C26049D725B755810002929A /* CoverImage.swift */,
-				C26049D825B755810002929A /* PosterImage.swift */,
-				C26049D925B755810002929A /* FavoriteButton.swift */,
+				C26049D425B755810002929A /* CoverImageDetail.swift */,
+				C26049CD25B755810002929A /* DiscoverCover.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				C26049E725B755810002929A /* PosterImageDetail.swift in Sources */,
 				C26049E325B755810002929A /* MovieRow.swift in Sources */,
 				C26049E625B755810002929A /* Rating.swift in Sources */,
+				C26049EF25B7571F0002929A /* DiscoverGrid.swift in Sources */,
 				C26049E425B755810002929A /* MovieList.swift in Sources */,
 				C26049E925B755810002929A /* PosterImage.swift in Sources */,
 				C26049E025B755810002929A /* DiscoverCover.swift in Sources */,
