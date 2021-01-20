@@ -13,7 +13,6 @@ struct PosterImageDetail: View {
     var body: some View {
         image
             .resizable()
-            //.frame(width: 100, height: 150)
             .frame(width: 150, height: 225)
             .cornerRadius(8)
             .shadow(radius: 5)

@@ -21,7 +21,7 @@ struct MovieList: View {
         NavigationView {
             List {
                 Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
+                    Text("Toggle Saved")
                 }
 
                 ForEach(filteredMovies) { movie in
