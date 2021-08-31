@@ -18,7 +18,7 @@ struct DiscoverRow: View {
                 Text(categoryName)
                     .font(.headline)
                 
-                Spacer()
+                //Spacer()
 
                 NavigationLink(destination: DiscoverGrid(categoryName: categoryName, items: items)) {
                     Spacer()

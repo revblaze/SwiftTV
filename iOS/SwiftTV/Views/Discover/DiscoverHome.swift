@@ -21,6 +21,7 @@ struct DiscoverHome: View {
                     DiscoverRow(categoryName: key, items: modelData.categories[key]!)
                 }
                 .listRowInsets(EdgeInsets())
+                //.listStyle(PlainListStyle())
             }
             .navigationTitle("Discover")
         }

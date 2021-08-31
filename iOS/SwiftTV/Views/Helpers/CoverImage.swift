@@ -15,10 +15,11 @@ struct CoverImage: View {
             image
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: geo.size.width, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .frame(width: geo.size.width, height: 300, alignment: .center)
         }
         .ignoresSafeArea(edges: .top)
     }
+    
 }
 
 struct CoverImage_Previews: PreviewProvider {
